@@ -281,7 +281,7 @@ root.title("YMMS")
 #root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(file='logo.png'))
 
 try:
-    is_connected() # start the checking
+    is_connected()# start the checking
     root.mainloop()
 
 except:
